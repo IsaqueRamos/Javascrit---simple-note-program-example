@@ -1,0 +1,16 @@
+var nota1 = prompt('Digite sua primeira nota');
+
+var nota2 = prompt('Digite sua segunda nota');
+
+//Para ser aprovado as duas notas precisam ser de no mínimo 15.
+
+ if (nota1 && nota2 >= 15){
+
+alert("Você foi aprovado!");
+
+}else{
+
+alert("Você foi reprovado!");
+
+}
+
